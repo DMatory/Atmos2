@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C462C120F4F4D500349DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C462C020F4F4D500349DAA /* AppDelegate.swift */; };
+		12C462C320F4F4D500349DAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C462C220F4F4D500349DAA /* ViewController.swift */; };
+		12C462C620F4F4D500349DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C462C420F4F4D500349DAA /* Main.storyboard */; };
+		12C462C820F4F4D700349DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C462C720F4F4D700349DAA /* Assets.xcassets */; };
+		12C462CB20F4F4D700349DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C462C920F4F4D700349DAA /* LaunchScreen.storyboard */; };
+		12C462D620F4F4D700349DAA /* Atmos_DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C462D520F4F4D700349DAA /* Atmos_DashboardTests.swift */; };
+		12C462E120F4F4D700349DAA /* Atmos_DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C462E020F4F4D700349DAA /* Atmos_DashboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12C462D220F4F4D700349DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C462B520F4F4D500349DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C462BC20F4F4D500349DAA;
+			remoteInfo = "Atmos Dashboard";
+		};
+		12C462DD20F4F4D700349DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C462B520F4F4D500349DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C462BC20F4F4D500349DAA;
+			remoteInfo = "Atmos Dashboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C462BD20F4F4D500349DAA /* Atmos Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atmos Dashboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C462C020F4F4D500349DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12C462C220F4F4D500349DAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12C462C520F4F4D500349DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12C462C720F4F4D700349DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C462CA20F4F4D700349DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12C462CC20F4F4D700349DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C462D120F4F4D700349DAA /* Atmos DashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Atmos DashboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C462D520F4F4D700349DAA /* Atmos_DashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atmos_DashboardTests.swift; sourceTree = "<group>"; };
+		12C462D720F4F4D700349DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C462DC20F4F4D700349DAA /* Atmos DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Atmos DashboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C462E020F4F4D700349DAA /* Atmos_DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atmos_DashboardUITests.swift; sourceTree = "<group>"; };
+		12C462E220F4F4D700349DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C462BA20F4F4D500349DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C462CE20F4F4D700349DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C462D920F4F4D700349DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C462B420F4F4D500349DAA = {
+			isa = PBXGroup;
+			children = (
+				12C462BF20F4F4D500349DAA /* Atmos Dashboard */,
+				12C462D420F4F4D700349DAA /* Atmos DashboardTests */,
+				12C462DF20F4F4D700349DAA /* Atmos DashboardUITests */,
+				12C462BE20F4F4D500349DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12C462BE20F4F4D500349DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C462BD20F4F4D500349DAA /* Atmos Dashboard.app */,
+				12C462D120F4F4D700349DAA /* Atmos DashboardTests.xctest */,
+				12C462DC20F4F4D700349DAA /* Atmos DashboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C462BF20F4F4D500349DAA /* Atmos Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				12C462C020F4F4D500349DAA /* AppDelegate.swift */,
+				12C462C220F4F4D500349DAA /* ViewController.swift */,
+				12C462C420F4F4D500349DAA /* Main.storyboard */,
+				12C462C720F4F4D700349DAA /* Assets.xcassets */,
+				12C462C920F4F4D700349DAA /* LaunchScreen.storyboard */,
+				12C462CC20F4F4D700349DAA /* Info.plist */,
+			);
+			path = "Atmos Dashboard";
+			sourceTree = "<group>";
+		};
+		12C462D420F4F4D700349DAA /* Atmos DashboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				12C462D520F4F4D700349DAA /* Atmos_DashboardTests.swift */,
+				12C462D720F4F4D700349DAA /* Info.plist */,
+			);
+			path = "Atmos DashboardTests";
+			sourceTree = "<group>";
+		};
+		12C462DF20F4F4D700349DAA /* Atmos DashboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12C462E020F4F4D700349DAA /* Atmos_DashboardUITests.swift */,
+				12C462E220F4F4D700349DAA /* Info.plist */,
+			);
+			path = "Atmos DashboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C462BC20F4F4D500349DAA /* Atmos Dashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C462E520F4F4D700349DAA /* Build configuration list for PBXNativeTarget "Atmos Dashboard" */;
+			buildPhases = (
+				12C462B920F4F4D500349DAA /* Sources */,
+				12C462BA20F4F4D500349DAA /* Frameworks */,
+				12C462BB20F4F4D500349DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Atmos Dashboard";
+			productName = "Atmos Dashboard";
+			productReference = 12C462BD20F4F4D500349DAA /* Atmos Dashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12C462D020F4F4D700349DAA /* Atmos DashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C462E820F4F4D700349DAA /* Build configuration list for PBXNativeTarget "Atmos DashboardTests" */;
+			buildPhases = (
+				12C462CD20F4F4D700349DAA /* Sources */,
+				12C462CE20F4F4D700349DAA /* Frameworks */,
+				12C462CF20F4F4D700349DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C462D320F4F4D700349DAA /* PBXTargetDependency */,
+			);
+			name = "Atmos DashboardTests";
+			productName = "Atmos DashboardTests";
+			productReference = 12C462D120F4F4D700349DAA /* Atmos DashboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12C462DB20F4F4D700349DAA /* Atmos DashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C462EB20F4F4D700349DAA /* Build configuration list for PBXNativeTarget "Atmos DashboardUITests" */;
+			buildPhases = (
+				12C462D820F4F4D700349DAA /* Sources */,
+				12C462D920F4F4D700349DAA /* Frameworks */,
+				12C462DA20F4F4D700349DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C462DE20F4F4D700349DAA /* PBXTargetDependency */,
+			);
+			name = "Atmos DashboardUITests";
+			productName = "Atmos DashboardUITests";
+			productReference = 12C462DC20F4F4D700349DAA /* Atmos DashboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C462B520F4F4D500349DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Atmos;
+				TargetAttributes = {
+					12C462BC20F4F4D500349DAA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					12C462D020F4F4D700349DAA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 12C462BC20F4F4D500349DAA;
+					};
+					12C462DB20F4F4D700349DAA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 12C462BC20F4F4D500349DAA;
+					};
+				};
+			};
+			buildConfigurationList = 12C462B820F4F4D500349DAA /* Build configuration list for PBXProject "Atmos Dashboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12C462B420F4F4D500349DAA;
+			productRefGroup = 12C462BE20F4F4D500349DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C462BC20F4F4D500349DAA /* Atmos Dashboard */,
+				12C462D020F4F4D700349DAA /* Atmos DashboardTests */,
+				12C462DB20F4F4D700349DAA /* Atmos DashboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C462BB20F4F4D500349DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C462CB20F4F4D700349DAA /* LaunchScreen.storyboard in Resources */,
+				12C462C820F4F4D700349DAA /* Assets.xcassets in Resources */,
+				12C462C620F4F4D500349DAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C462CF20F4F4D700349DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C462DA20F4F4D700349DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C462B920F4F4D500349DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C462C320F4F4D500349DAA /* ViewController.swift in Sources */,
+				12C462C120F4F4D500349DAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C462CD20F4F4D700349DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C462D620F4F4D700349DAA /* Atmos_DashboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C462D820F4F4D700349DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C462E120F4F4D700349DAA /* Atmos_DashboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12C462D320F4F4D700349DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C462BC20F4F4D500349DAA /* Atmos Dashboard */;
+			targetProxy = 12C462D220F4F4D700349DAA /* PBXContainerItemProxy */;
+		};
+		12C462DE20F4F4D700349DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C462BC20F4F4D500349DAA /* Atmos Dashboard */;
+			targetProxy = 12C462DD20F4F4D700349DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12C462C420F4F4D500349DAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C462C520F4F4D500349DAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12C462C920F4F4D700349DAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C462CA20F4F4D700349DAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C462E320F4F4D700349DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12C462E420F4F4D700349DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C462E620F4F4D700349DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Atmos Dashboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Atmos.Atmos-Dashboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12C462E720F4F4D700349DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Atmos Dashboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Atmos.Atmos-Dashboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12C462E920F4F4D700349DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Atmos DashboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Atmos.Atmos-DashboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atmos Dashboard.app/Atmos Dashboard";
+			};
+			name = Debug;
+		};
+		12C462EA20F4F4D700349DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Atmos DashboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Atmos.Atmos-DashboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atmos Dashboard.app/Atmos Dashboard";
+			};
+			name = Release;
+		};
+		12C462EC20F4F4D700349DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Atmos DashboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Atmos.Atmos-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Atmos Dashboard";
+			};
+			name = Debug;
+		};
+		12C462ED20F4F4D700349DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Atmos DashboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Atmos.Atmos-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Atmos Dashboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C462B820F4F4D500349DAA /* Build configuration list for PBXProject "Atmos Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C462E320F4F4D700349DAA /* Debug */,
+				12C462E420F4F4D700349DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C462E520F4F4D700349DAA /* Build configuration list for PBXNativeTarget "Atmos Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C462E620F4F4D700349DAA /* Debug */,
+				12C462E720F4F4D700349DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C462E820F4F4D700349DAA /* Build configuration list for PBXNativeTarget "Atmos DashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C462E920F4F4D700349DAA /* Debug */,
+				12C462EA20F4F4D700349DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C462EB20F4F4D700349DAA /* Build configuration list for PBXNativeTarget "Atmos DashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C462EC20F4F4D700349DAA /* Debug */,
+				12C462ED20F4F4D700349DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C462B520F4F4D500349DAA /* Project object */;
+}
