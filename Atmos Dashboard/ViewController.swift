@@ -10,6 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var menuButtons: [UIButton]!
+    
+    @IBAction func nameField(_ sender: UITextField) {
+    }
+    
+    @IBAction func emailField(_ sender: UITextField) {
+    }
+    
+    
+    @IBAction func cellphoneField(_ sender: UITextField) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,8 +33,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func handleSelection(_ sender: UIButton) {
+        menuButtons.forEach { (button) in
+            button.isHidden = !button.isHidden
+        }
+    }
     
-    override func viewDidAppear(_ animated: Bool)
+    @IBAction func optionTapped(_ sender: UIButton) {
+    }
+
+    
+   override func viewDidAppear(_ animated: Bool)
     {
         self.performSegue(withIdentifier: "loginView", sender: self);
     }
